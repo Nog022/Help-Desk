@@ -25,7 +25,7 @@ public class SecurityConfig {
 	private static final String[] PUBLIC_POST = { "/auth/login", "/cliente", "/tecnico" };
 
 	private static final String[] PUBLIC_GET = { "/v3/api-docs/**", "/swagger-ui.html", "/swagger-ui/**",
-			"/h2-console/**" };
+			"/h2-console/**", "/cliente", "/tecnico" };
 
 	@Autowired
 	private SecurityFilter securityFilter;
